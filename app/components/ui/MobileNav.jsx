@@ -38,14 +38,14 @@ const MobileNav = () => {
   return (
     <Sheet>
       <SheetTrigger>
-        <CiMenuFries className="text-[32px] text-red-700" />
+        <CiMenuFries className="text-[32px] text-red-400" />
       </SheetTrigger>
       <SheetContent className="flex flex-col">
         <div className="text-white">
           <div className="mt-32 mb-20 text-2xl text-center">
             <Link href="/">
               <h1 className="text-4xl font-semibold">
-                Niavo <span className="text-red-600">.</span>
+                Niavo <span className="text-red-400">.</span>
               </h1>
             </Link>
           </div>
@@ -57,7 +57,7 @@ const MobileNav = () => {
                   <Link
                     href={path}
                     className={`text-xl ${
-                      pathname === path ? "text-red-600" : "text-white"
+                      pathname === path ? "text-red-400" : "text-white"
                     }`} // Ajout d'une classe active pour le lien actif
                   >
                     {name}

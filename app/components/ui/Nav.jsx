@@ -36,8 +36,8 @@ function Nav() {
               key={index}
               className={`${
                 link.paht === pathname &&
-                "text-red-700 border-b-2 border-red-700"
-              } capitalize font-medium hover:text-red-700 transition-all`}
+                "text-red-400 border-b-2 border-red-400"
+              } capitalize font-medium hover:text-red-400 transition-all`}
             >
               {link.name}
             </Link>

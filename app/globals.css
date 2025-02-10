@@ -4,7 +4,8 @@
 
 /* Applique une transition douce pour la couleur de fond */
 body {
-  transition: background-color 0.5s ease; /* 0.5s pour la durée de la transition */
+  transition: background-color 0.5s ease;
+  color: white; /* 0.5s pour la durée de la transition */
 }
 
 /* Classe initiale avec bg-slate-950 */
@@ -14,11 +15,14 @@ body {
 
 /* Changer la couleur de fond lorsque l'élément est survolé */
 .data-in:hover {
-  background-color: #1e293b; /* Autre nuance de gris ou une autre couleur que vous préférez */
+  background-color: #0f172a; /* Autre nuance de gris ou une autre couleur que vous préférez */
 }
 
-@layer base {
-  :root {
-    --radius: 0.5rem;
-  }
+.text-outline {
+  -webkit-text-stroke: 1px #ffffff;
 }
+.text-outline-hover {
+  -webkit-text-stroke: 1px #0f172a;
+}
+/* @layer base {
+} */

@@ -7,22 +7,18 @@ const PageTransition = ({ children }) => {
 
   return (
     <AnimatePresence mode="wait">
-      {/* Ce div est pour le fond de la transition */}
       <motion.div
         key={pathname}
-        initial={{ opacity: 1 }}
+        initial={{ opacity: 0 }}
         animate={{
-          opacity: 0,
+          opacity: 1,
           transition: { duration: 0.5, ease: "easeInOut" },
         }}
-        exit={{
-          opacity: 0,
-          transition: { delay: 0.5, duration: 0.5, ease: "easeInOut" },
-        }}
-        className="fixed top-0 left-0 w-screen h-screen pointer-events-none bg-primary"
-      />
-      {/* Les enfants sont rendus après la transition */}
-      {children}
+        exit={{ opacity: 0, transition: { duration: 0.5, ease: "easeInOut" } }}
+        className="relative w-full"
+      >
+        {children}
+      </motion.div>
     </AnimatePresence>
   );
 };

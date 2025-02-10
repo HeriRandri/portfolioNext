@@ -9,7 +9,7 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-red-600 text-white", // Couleur de fond rouge et texte blanc
+        default: "bg-red-400 text-white", // Couleur de fond rouge et texte blanc
       },
       size: {
         default: "h-9 px-4 py-2",
