@@ -50,7 +50,7 @@ const Contact = () => {
                 <h3 className="text-4xl text-red-400 before:">
                   Let's Work Together
                 </h3>
-                <p className="text-white/60">
+                <p className="text-white/80">
                   je vis a Madagascar , c'est un pays tres aggreable et
                   incroyable, avec une paysage tres motivant
                 </p>

@@ -6,14 +6,14 @@ import Stats from "./components/ui/Stats";
 
 export default function Home() {
   return (
-    <section className="h-screen data-in">
+    <section className="min-h-screen data-in">
       <div className="container mx-auto">
         <div className="flex flex-col items-center justify-between xl:flex-row xl:pb-24 ">
           <div className="order-2 text-center xl:text-left xl:order-none">
             <span className="text-2xl">Software Developer</span>
-            <h1 className="text-[58px] xl:text-[80px] leading-[1.1] font-semibold">
+            <h1 className="text-[8vw] xl:text-[80px] leading-[1.1] font-semibold">
               Hello I'm <br />
-              <span className="text-red-400">Nandrianina</span>{" "}
+              <span className="text-red-400">Nandrianina</span>
             </h1>
             <p className="max-w-[400px] mb-9 text-white/80">
               I excel at crafting elegant digital experiences and i am
