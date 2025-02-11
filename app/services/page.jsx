@@ -30,7 +30,7 @@ const services = [
 ];
 const Services = () => {
   return (
-    <section className="h-screen data-in min-h-[80vh] flex flex-col justify-center py-12 xl:py-0">
+    <section className="flex flex-col justify-center py-12 data-in xl:py-0 xl:pt-10">
       <div className="container mx-auto">
         <motion.div
           className="grid grid-cols-1 md:grid-cols-2 gap-[60px]"
